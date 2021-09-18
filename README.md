@@ -1,5 +1,5 @@
 # BinaryQuantileRegression
-Codebase for Estimating and Applying Quantiles in Deep Binary Classification 
+Codebase for the paper "Estimation and Applications of Quantiles in Deep Binary Classification" in IEEE Transactions on Artificial Intelligence
 
 This archive contains all the relevant code for the paper "Estimation and Applications of Quantiles and in Deep Binary Classification"
 
