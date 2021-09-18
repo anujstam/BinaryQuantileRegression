@@ -1,0 +1,179 @@
+Dataset Parameters
+These provide the dataset parameters for all the relevant notebooks
+
+Classification Datasets:
+-----------------------------------------------------------------------------------------
+
+Banknote Authentication
+dataset = 'Datasets/Classification/BankNote_Authentication.csv'
+x_cols = list(range(4))
+y_col = 4
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Haberman Survival
+dataset = 'Datasets/Classification/haberman_survival.csv'
+x_cols = list(range(3))
+y_col = 3
+separator = ","
+remove_head = False
+
+------------------------------------------------------------------
+
+Heart Disease
+dataset = 'Datasets/Classification/heart.csv'
+x_cols = list(range(13))
+y_col = 13
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Indian Liver Patient
+dataset = 'Datasets/Classification/ILP.csv'
+x_cols = list(range(10))
+y_col = 10
+separator = ","
+
+------------------------------------------------------------------
+
+Ionosphere
+dataset = 'Datasets/Classification/ionosphere.csv'
+x_cols = list(range(33))
+y_col = 33
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Pima Indians Diabetes
+dataset = 'Datasets/Classification/pima.csv'
+x_cols = list(range(8))
+y_col = 8
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Sonar
+dataset = 'Datasets/Classification/sonar.csv'
+x_cols = list(range(60))
+y_col = 60
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Titanic
+dataset = 'Datasets/Classification/titanic_clean.csv'
+x_cols = list(range(8))
+y_col = 8
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Wisconsin Breast Cancer
+dataset = 'Datasets/Classification/WBC.csv'
+x_cols = list(range(1,10))
+y_col = 10
+separator = ","
+remove_head = True
+
+------------------------------------------------------------------
+
+Regression Datasets:
+-----------------------------------------------------------------------------------------
+
+Abalone
+dataset = 'Datasets/Regression/abalone.csv'
+x_cols = list(range(8))
+y_col = 8
+separator = ","
+remove_head = False
+mv = 9
+
+------------------------------------------------------------------
+
+Boston Housing
+dataset = 'Datasets/Regression/bostonHousing.txt'
+x_cols = list(range(13))
+y_col = 13
+separator = " "
+remove_head = False
+mv = 22
+
+------------------------------------------------------------------
+
+California Housing
+dataset = 'Datasets/Regression/california.csv'
+x_cols = list(range(9))
+y_col = 9
+separator = ","
+remove_head = False
+mv = 180000
+
+------------------------------------------------------------------
+
+Concrete
+dataset = 'Datasets/Regression/concrete.txt'
+x_cols = list(range(8))
+y_col = 8
+separator = "\t"
+remove_head = False
+mv = 35
+
+------------------------------------------------------------------
+
+Energy
+dataset = 'Datasets/Regression/energy.txt'
+x_cols = list(range(8))
+y_col = 8
+separator = "\t"
+remove_head = False
+mv = 20
+
+------------------------------------------------------------------
+
+Tertiary Protein Structure
+dataset = 'Datasets/Regression/protein-tertiary-structure.txt'
+x_cols = list(range(9))
+y_col = 9
+separator = " "
+remove_head = False
+mv = 5
+
+------------------------------------------------------------------
+
+Redshift
+dataset = 'Datasets/Regression/Redshift.csv'
+x_cols = list(range(32))
+y_col = 32
+separator = ","
+remove_head = True
+mv = 0.65
+
+
+------------------------------------------------------------------
+
+Wine
+dataset = 'Datasets/Regression/wine-quality-red.txt'
+x_cols = list(range(11))
+y_col = 11
+separator = " "
+remove_head = False
+mv = 5
+
+------------------------------------------------------------------
+
+Yacht
+dataset = 'Datasets/Regression/yacht.txt'
+x_cols = list(range(6))
+y_col = 6
+separator = " "
+remove_head = False
+mv = 2
+
+
